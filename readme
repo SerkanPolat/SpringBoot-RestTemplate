@@ -1,0 +1,11 @@
+Spring rest template projesi 8082 portuna ayarlandi.
+Daha once yazilmis olan spring-jpa-postgresql projeside 8081 portuna acildi.
+8080 portunda dockerda adminer 5432 portunda dockerda postgresql veritabani ayarlandi.
+Istekler localhost:8082/test ile spring-rest-template projesine yapildi.
+Bu projede rest template 8081 projesine postgresql veritabanindaki kisilerin
+listelenmesi icin kullanildi.Kullanici 8082de rest template ile rest template
+8081 ile spring-jpa-postgresql projesi ile spring-jpa-postgresql projeside 5432
+portundaki postgresql ile haberleserek veri listeleme ve kaydetme islemleri yapildi.
+
+
+https://howtodoinjava.com/spring-boot2/resttemplate/spring-restful-client-resttemplate-example/
